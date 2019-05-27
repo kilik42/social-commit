@@ -1,12 +1,12 @@
 .x-large {
   font-size: 4rem;
   line-height: 1.2;
-  margin-bootm: 1rem; }
+  margin-bottom: 1rem; }
 
 .large {
   font-size: 43rem;
   line-height: 1.2;
-  margin-bootm: 1rem; }
+  margin-bottom: 1rem; }
 
 .lead {
   font-size: 1.5rem;
@@ -37,6 +37,28 @@
   background-color: #17a2b8;
   color: #333;
   border: #ccc 1px solid; }
+
+.btn {
+  display: inline-block;
+  background: #f4f4f4;
+  color: #333;
+  padding: 0.4rem  1.3rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  outline: none; }
+  .btn.btn-primary {
+    background-color: #17a2b8;
+    color: #fff; }
+
+.dark-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7); }
 
 * {
   box-sizing: border-box;
@@ -95,11 +117,3 @@ img {
     background-color: #17a2b8;
     color: #333;
     border: #ccc 1px solid; }
-
-.dark-overlay {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.7); }

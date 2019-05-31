@@ -2,7 +2,9 @@
   max-width: 1100px;
   margin: auto;
   overflow: hidden;
-  padding: 0 2rem; }
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem; }
 
 .x-large {
   font-size: 4rem;
@@ -10,7 +12,7 @@
   margin-bottom: 1rem; }
 
 .large {
-  font-size: 43rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 1rem; }
 

@@ -1,3 +1,14 @@
+//container
+
+.container{
+  max-width: $max-width;
+  margin: auto;
+  overflow: hidden;
+  padding:0 2rem;
+}
+
+
+
 // text style
 
 .x-large{

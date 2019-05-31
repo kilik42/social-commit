@@ -1,3 +1,9 @@
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem; }
+
 .x-large {
   font-size: 4rem;
   line-height: 1.2;

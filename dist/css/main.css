@@ -144,6 +144,26 @@
     background: #626d78;
     color: #fff; }
 
+/* Alerts */
+.alert {
+  padding: 0.08rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: #f4f4f4;
+  color: #333; }
+  .alert.alert-primary {
+    background-color: #17a2b8;
+    color: #fff; }
+  .alert.alert-dark {
+    background-color: #17a2b8;
+    color: #fff; }
+  .alert.alert-success {
+    background-color: #17a2b8;
+    color: #fff; }
+  .alert.alert-danger {
+    background-color: #17a2b8;
+    color: #333; }
+
 .dark-overlay {
   height: 100%;
   width: 100%;

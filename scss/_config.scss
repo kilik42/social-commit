@@ -22,3 +22,33 @@ $max-width: 1100px;
   color: set-text-color($color);
 
 }
+
+//margin &padding
+$spaceamounts : (1,2,3,4,5);
+
+@each $space in $spaceamounts{
+  // all around margin
+
+  .m-#{$space}{
+    margin: #{space}rem;
+
+  }
+  //all around padding
+  .p-#{$space}{
+    padding: #{space}rem;
+
+  }
+
+  //vertical padding
+  .py-#{$space}{
+    padding: #{space}rem 0;
+
+  }
+
+  //vertical margin
+  .my-#{$space}{
+    margin: #{space}rem 0;
+
+  }
+
+}
